@@ -1,0 +1,106 @@
+2025-10-22T15:53:19.760+0800 [INFO]  Terraform version: 1.13.3
+2025-10-22T15:53:19.760+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-10-22T15:53:19.760+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-10-22T15:53:19.760+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-10-22T15:53:19.760+0800 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-10-22T15:53:19.760+0800 [INFO]  Go runtime version: go1.24.5
+2025-10-22T15:53:19.760+0800 [INFO]  CLI args: []string{"terraform", "init"}
+2025-10-22T15:53:19.761+0800 [TRACE] Stdout is a terminal of width 107
+2025-10-22T15:53:19.761+0800 [TRACE] Stderr is a terminal of width 107
+2025-10-22T15:53:19.761+0800 [TRACE] Stdin is a terminal
+2025-10-22T15:53:19.761+0800 [DEBUG] Attempting to open CLI config file: /Users/tchow/.terraformrc
+2025-10-22T15:53:19.761+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-10-22T15:53:19.761+0800 [INFO]  Loading CLI configuration from /Users/tchow/.terraform.d/credentials.tfrc.json
+2025-10-22T15:53:19.761+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-10-22T15:53:19.761+0800 [DEBUG] ignoring non-existing provider search directory /Users/tchow/.terraform.d/plugins
+2025-10-22T15:53:19.761+0800 [DEBUG] ignoring non-existing provider search directory /Users/tchow/Library/Application Support/io.terraform/plugins
+2025-10-22T15:53:19.761+0800 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2025-10-22T15:53:19.761+0800 [INFO]  CLI command args: []string{"init"}
+2025-10-22T15:53:19.762+0800 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 553173700
+2025-10-22T15:53:19.762+0800 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2025-10-22T15:53:19.762+0800 [TRACE] Meta.Backend: moving from default local state only to "cloud" backend
+2025-10-22T15:53:19.762+0800 [DEBUG] checking for provisioner in "."
+2025-10-22T15:53:19.762+0800 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2025-10-22T15:53:19.762+0800 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2025-10-22T15:53:19.762+0800 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate
+2025-10-22T15:53:19.762+0800 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2025-10-22T15:53:19.762+0800 [TRACE] statemgr.Filesystem: read nil snapshot
+2025-10-22T15:53:19.762+0800 [TRACE] Meta.Backend: ignoring local "default" workspace because its state is empty
+2025-10-22T15:53:19.762+0800 [TRACE] Meta.Backend: HCP Terraform or Terraform Enterprise mode initialization type: ConfigChangeInPlace
+2025-10-22T15:53:19.763+0800 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-10-22T15:53:19.763+0800 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-10-22T15:53:19.763+0800 [TRACE] cloud: using organization "TerryOrg" from cloud config block
+2025-10-22T15:53:19.763+0800 [TRACE] cloud: found workspace name "tf_workspace_aws" in cloud config block
+2025-10-22T15:53:19.763+0800 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-10-22T15:53:19.763+0800 [TRACE] cloud: using workspace name "tf_workspace_aws" from cloud config block
+2025-10-22T15:53:19.763+0800 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-10-22T15:53:19.763+0800 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-10-22T15:53:20.769+0800 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-10-22T15:53:20.769+0800 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-10-22T15:55:25.092+0800 [INFO]  Terraform version: 1.13.3
+2025-10-22T15:55:25.092+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-10-22T15:55:25.092+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-10-22T15:55:25.092+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-10-22T15:55:25.092+0800 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-10-22T15:55:25.092+0800 [INFO]  Go runtime version: go1.24.5
+2025-10-22T15:55:25.092+0800 [INFO]  CLI args: []string{"terraform", "init"}
+2025-10-22T15:55:25.092+0800 [TRACE] Stdout is a terminal of width 107
+2025-10-22T15:55:25.092+0800 [TRACE] Stderr is a terminal of width 107
+2025-10-22T15:55:25.092+0800 [TRACE] Stdin is a terminal
+2025-10-22T15:55:25.092+0800 [DEBUG] Attempting to open CLI config file: /Users/tchow/.terraformrc
+2025-10-22T15:55:25.092+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-10-22T15:55:25.092+0800 [INFO]  Loading CLI configuration from /Users/tchow/.terraform.d/credentials.tfrc.json
+2025-10-22T15:55:25.093+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-10-22T15:55:25.093+0800 [DEBUG] ignoring non-existing provider search directory /Users/tchow/.terraform.d/plugins
+2025-10-22T15:55:25.093+0800 [DEBUG] ignoring non-existing provider search directory /Users/tchow/Library/Application Support/io.terraform/plugins
+2025-10-22T15:55:25.093+0800 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2025-10-22T15:55:25.093+0800 [INFO]  CLI command args: []string{"init"}
+2025-10-22T15:55:25.093+0800 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 553173700
+2025-10-22T15:55:25.093+0800 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2025-10-22T15:55:25.093+0800 [TRACE] Meta.Backend: moving from default local state only to "cloud" backend
+2025-10-22T15:55:25.093+0800 [DEBUG] checking for provisioner in "."
+2025-10-22T15:55:25.093+0800 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2025-10-22T15:55:25.093+0800 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2025-10-22T15:55:25.093+0800 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate
+2025-10-22T15:55:25.093+0800 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2025-10-22T15:55:25.093+0800 [TRACE] statemgr.Filesystem: read nil snapshot
+2025-10-22T15:55:25.093+0800 [TRACE] Meta.Backend: ignoring local "default" workspace because its state is empty
+2025-10-22T15:55:25.093+0800 [TRACE] Meta.Backend: HCP Terraform or Terraform Enterprise mode initialization type: ConfigChangeInPlace
+2025-10-22T15:55:25.093+0800 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-10-22T15:55:25.093+0800 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-10-22T15:55:25.094+0800 [TRACE] cloud: using organization "TerryOrg" from cloud config block
+2025-10-22T15:55:25.094+0800 [TRACE] cloud: found workspace name "tf_workspace_aws" in cloud config block
+2025-10-22T15:55:25.094+0800 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-10-22T15:55:25.094+0800 [TRACE] cloud: using workspace name "tf_workspace_aws" from cloud config block
+2025-10-22T15:55:25.094+0800 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-10-22T15:55:25.094+0800 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-10-22T15:55:26.013+0800 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-10-22T15:55:26.013+0800 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-10-22T15:56:53.730+0800 [INFO]  Terraform version: 1.13.3
+2025-10-22T15:56:53.730+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-10-22T15:56:53.730+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-10-22T15:56:53.730+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-10-22T15:56:53.730+0800 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-10-22T15:56:53.730+0800 [INFO]  Go runtime version: go1.24.5
+2025-10-22T15:56:53.730+0800 [INFO]  CLI args: []string{"terraform", "login"}
+2025-10-22T15:56:53.730+0800 [TRACE] Stdout is a terminal of width 107
+2025-10-22T15:56:53.730+0800 [TRACE] Stderr is a terminal of width 107
+2025-10-22T15:56:53.730+0800 [TRACE] Stdin is a terminal
+2025-10-22T15:56:53.730+0800 [DEBUG] Attempting to open CLI config file: /Users/tchow/.terraformrc
+2025-10-22T15:56:53.730+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-10-22T15:56:53.730+0800 [INFO]  Loading CLI configuration from /Users/tchow/.terraform.d/credentials.tfrc.json
+2025-10-22T15:56:53.730+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-10-22T15:56:53.730+0800 [DEBUG] ignoring non-existing provider search directory /Users/tchow/.terraform.d/plugins
+2025-10-22T15:56:53.730+0800 [DEBUG] ignoring non-existing provider search directory /Users/tchow/Library/Application Support/io.terraform/plugins
+2025-10-22T15:56:53.730+0800 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2025-10-22T15:56:53.731+0800 [INFO]  CLI command args: []string{"login"}
+2025-10-22T15:56:53.731+0800 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-10-22T15:56:54.836+0800 [DEBUG] command: asking for input: "Do you want to proceed?"
+2025-10-22T15:57:12.212+0800 [DEBUG] command: asking for input: "Token for app.terraform.io:"
+2025-10-22T15:57:41.699+0800 [TRACE] HTTP client GET request to https://app.terraform.io/api/terraform/motd
